@@ -1,0 +1,46 @@
+label {
+  margin-top: 2vh;
+}
+
+label#responder {
+  margin-top: 0.5vh;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.icon-home {
+  height: 3vh;
+  width: 100%;
+}
+
+#formulario-pergunta{
+  margin-top: 5vh;
+}
+
+h1#formulario-responder, h3#formulario-responder{
+  text-align: center;
+  margin-top: 5vh;
+}
+
+h3#respostas{
+  text-align: center;
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+p#respostas{
+  text-align: center;
+}
+
+div#formulario-responder{
+  margin-top: 2vh;
+}
+
+a#formulario-responder{
+  display: block;
+  margin: 0 auto;
+  margin-top: 1vh;
+  width: 180px;
+}

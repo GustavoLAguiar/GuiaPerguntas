@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Perguntas</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <img src="/img/image.jpg" />
+  <h1>Guia Perguntas</h1>
+  <hr>
+  <h3>Lista de perguntas</h3>
+  <li>Nome: <%= nome %></li>
+  <li>Linguagem de programação: <%= lang %></li>
+  <li>Empresa: <%= empresa %></li>
+  <li>Número de inscritos: <%= inscritos %></li>
+  <hr>
+  <% if(msg) { %>
+    <h3>Opa, ocorreu um erro!</h3> 
+  <%} else { %>
+    <h3>Deu bom!</h3>
+  <%} %>
+  <hr>
+  <h3>Segue abaixo a nossa lista de produtos</h3>
+  <% produtos.forEach(function(produto) { %>
+    <li>Nome: <%= produto.nome %> | Preço: <%= produto.preco %></li>
+  <% }) %>
+
+</body>
+</html>
